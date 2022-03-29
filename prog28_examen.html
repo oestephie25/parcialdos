@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Examen</title>
+		<link href="efectos_grande.css" rel="stylesheet" type="text/css">
+		<script src="prog28_examen.js" type="text/JavaScript"></script>
+	</head>
+	<body><center>
+		<p class="título24">Crear cuentas de correo electrónico</p>
+		<table border="20%" width="80%">
+			<form name="f_correo">
+				<tr align="center">
+					<td><p>Indica el nombre de la persona</p></td>
+					<td><input name="nom" type="text" class="campo" onclick="campo_nom()"><font size="6" color="red">*</font></td>
+				</tr>
+				<tr align="center">
+					<td><p>Indica el apellido paterno de la persona</p></td>
+					<td><input name="ap" type="text" class="campo" onclick="campo_ap()"><font size="6" color="red">*</font></td>
+				</tr>
+				<tr align="center">
+					<td><p>Indica el apellido materno de la persona</p></td>
+					<td><input name="am" type="text" class="campo" onclick="campo_am()"><font size="6" color="red">*</font></td>
+				</tr>
+				<tr align="center">
+					<td><p>Indica la fecha de nacimiento de la persona</p></td>
+					<td><input name="fec" type="date" class="campo" onclick="campo_fec()"><font size="6" color="red">*</font></td>
+				</tr>
+				<tr align="center">
+					<td><p>El correo electrónico es</p></td>
+					<td><input name="salida" type="text" class="campo" disabled="true" style="background: gray"><font size="6" color="white">*</font></td>
+				</tr>
+				<tr align="center">
+					<td><p>La contraseña es</p></td>
+					<td><input name="contra" type="text" class="campo" disabled="true" style="background: gray"><font size="6" color="white">*</font></td>
+				</tr>
+				<tr align="center">
+					<td><input name="b_ejecuta" type="button" class="botón" value="Ejecutar" onclick="ejecuta()"></td>
+					<td><input name="b_reinicia" type="reset" class="botón" value="Reiniciar" style="background: red"></td>
+				</tr>
+			</form>
+		</table>
+	</center></body>
+</html>
