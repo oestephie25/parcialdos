@@ -1,0 +1,50 @@
+p{
+	font-size: 14pt;
+	color: #9b23d3;
+}
+
+.título24{
+	font-size: 24pt;
+	background: purple;
+	color: white; 
+	width: 90%;
+	border-radius: 10px;
+	font-weight: bold;
+	font-family: courier;
+}
+
+.título18{
+	font-size: 18pt;
+	background: purple;
+	color: white; 
+	width: 70%;
+	border-radius: 10px;
+	font-weight: bold;
+	font-family: courier;
+}
+
+.botón{
+	font-size: 14pt;
+	font-weight: bold;
+	color: white;
+	background: purple;
+	width: 200px;
+	height: 70px;
+	border-bottom-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.botón:hover{
+		color: purple;
+	background: white;
+}
+
+.campo{
+	background: purple;
+	color: white;
+	font-size: 14pt;
+	border-radius: 7px;
+	font-weight: bold;
+	text-align: center;
+	width: 400px;
+}
